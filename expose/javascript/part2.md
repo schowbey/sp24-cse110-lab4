@@ -32,7 +32,7 @@
     - D) false; the values's types are not converted, so they are unequal
     - E) false; true is converted to 1 which is not equal to 2
     - F) true; 2 is cast to a boolean. true is any non-zero number in JS
-15. == is an equality operator that always attempt to type-convert. === is a strict equality operator, so the types are not converted before comparing.
+15. == is an equality operator that always attempts to type-convert. === is a strict equality operator, so the types are never converted before comparing.
 16. see part2-question16.js
 17. [2,4,6] is returned by modifyArray. It first iterates over the given array. Then, before pushing to a new array, each value is passed on to the parameter```doSomething()``` which doubles and returns each value
 18. see part2-question18.js
